@@ -1,0 +1,16 @@
+name: GitHub to Vercel
+
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - "docs/**"
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Deployment Hook
+        run: |
+          curl -X POST https://api.vercel.com/v1/integrations/deploy/prj_5WIsNe13IMQbqbCPpKZW2DwufCRI/qRo2PAJ9u3

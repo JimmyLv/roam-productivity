@@ -1,0 +1,29 @@
+# macOS
+.Trash/
+.DS_Store
+
+# Archive
+_drafts/
+Inbox/
+Archive/
+_Archive/
+
+# NotePlan
+Notes/
+Calendar/
+Filters/
+
+# Artifact
+Trash/
+.cache/
+slides/
+
+# IDE
+.idea/
+.vscode/
+*.plist
+*.sublime-*
+
+# Dependencies
+configs/
+node_modules/
