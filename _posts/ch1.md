@@ -2,6 +2,8 @@
 
 你好，我是立青。欢迎和我一起探索《Roam Research 生产力实践》。那么第一讲，我想先跟你聊聊「写下来」，如何从每日笔记开始写下来，通过「间歇日记」的方式让你坚持记笔记。
 
+> 我尤其感谢「间歇日记」。
+
 ## 一、从来就没有人完全从零开始
 
 众所周知，现在笔记软件这个领域实在太卷了。在[《打造第二大脑》](https://www.buildingasecondbrain.com/)作者 Tiago Forte 的最新视频中介绍了整整 68 款笔记软件，这还不包括国产的很多软件。我在[「效率成瘾」年度征文](https://sspai.com/post/71518)中也跟你讲过，大家在用笔记软件的时候好像都是在玩具，而不是真正去使用它。所以，第一篇文章我就想给你讲一下如何从方法论的角度去使用这些工具。
@@ -82,7 +84,7 @@ Daily Note 这个设计虽然不新鲜，但是也是随着 Roam Research 的兴
 
 我在每天的日记下面，都写了很多带时间戳的一句话内容，**时间戳 + 感谢 + 下一步行动**这三大要素，形成了缺一不可的标准格式。
 
-![Roam Research 间歇日记的标准格式-感恩日记](ch1.assets/Roam Research 间歇日记的标准格式-感恩日记.png)
+![Roam Research 间歇日记的标准格式-感恩日记](ch1.assets/Roam%20Research%20间歇日记的标准格式-感恩日记.png)
 
 ### 3.1 感性认识：「间歇日记」的具体示例
 
@@ -175,7 +177,7 @@ Tony 老师就在思考，如果我们能够利用这五分钟，去做更有意
 
 让我们一起来搭建一下。首先是 `[[🐓 Morning Journal]]`，在 Roam Research 里面，你可以使用 `roam/templates` 模板，也就是斜杠 `/template` 输入快速新建一个模板。
 
-![间歇日记-🐓 Morning Journal](ch1.assets/间歇日记-Morning Journal.gif)
+![间歇日记-🐓 Morning Journal](ch1.assets/间歇日记-Morning%20Journal.gif)
 
 进入到 `roam/templates` 模板页面，第一层级的 Block 内容就是模板的标题，比如说你可以新建一条叫做 `[[🐓 Morning Journal]]`，然后在缩进的子 Blocks 中可以放下一些内容。
 
@@ -196,7 +198,7 @@ Tony 老师就在思考，如果我们能够利用这五分钟，去做更有意
 
 所以，有了这样的 `roam/templates` 模板，我就可以回到每天的 Daily Notes，愉快地去使用模板快速插入内容了。
 
-![Daily Notes-使用模板快速插入](ch1.assets/Daily Notes-使用模板快速插入.gif)
+![Daily Notes-使用模板快速插入](ch1.assets/Daily%20Notes-使用模板快速插入.gif)
 
 比如说，你现在直接回到今天的 Daily Notes，输入两个分号`;;`，你发现这里就会有个 `[[🐓 Morning Journal]]` 的模板标题，按下回车，你发现它自动插入了模板中的内容。
 
@@ -274,7 +276,7 @@ Tony 老师就在思考，如果我们能够利用这五分钟，去做更有意
 
 如果更直观一点，我还会使用 `{{kanban}}` 看板来进行，比如说我直接输入 `;;retro` 就可以通过 `roam/templates` 模板来快速插入一个看板视图，来回顾 Well 我今天哪些做得好的，Less Well 哪些可以改进的，以及产生了什么新的 Puzzle 问题。
 
-![回顾看板-🌙 Evening Reflection](ch1.assets/回顾看板-Evening Reflection.gif)
+![回顾看板-🌙 Evening Reflection](ch1.assets/回顾看板-Evening%20Reflection.gif)
 
 与此同时，你还可以用「块引用」（block ref）的方式来快速输入内容，比如说前文提到的`((剪辑视频))`。当然这里也可以写一些没有解决的问题，或者是你做得没那么好的，再提出一些改进建议。这里可以加一个 `/tomorrow` 明天的日期，`明天我要用标准的方式来写间歇日记`。诸如此类。
 
@@ -297,7 +299,7 @@ Tony 老师就在思考，如果我们能够利用这五分钟，去做更有意
 
 当你一天做了这么多事情，还可以通过我做的 `styled-roam/calendar` 日历视图插件，来快速回顾横跨很多天的间歇日记，也就是带时间戳的笔记。
 
-![Roam Research 日历视图插件](ch1.assets/Roam Research 日历视图插件.gif)
+![Roam Research 日历视图插件](ch1.assets/Roam%20Research%20日历视图插件.gif)
 
 所有这些日记，都可以通过时间戳的方式显示在日历上，从而可以帮助你更好地去回顾所记下的笔记。
 
